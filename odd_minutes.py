@@ -16,13 +16,11 @@ for i in range(5):
     
     if right_this_minute in minutes:
         print("This is an odd minute.")
-        time.sleep(random.randint(1,60))
-        count+=1
-
     else:
         print("Not an odd minute")
-        time.sleep(random.randint(1,60))
-        count+=1
+
+    time.sleep(random.randint(1,60))
+      
 
 
 
