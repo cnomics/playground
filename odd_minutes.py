@@ -20,9 +20,3 @@ for i in range(5):
         print("Not an odd minute")
 
     time.sleep(random.randint(1,60))
-      
-
-
-
-
-
